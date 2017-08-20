@@ -1,0 +1,16 @@
+<enum name="Commands">
+    <COMMAND_ID_START_SND 					name="00" />
+    <COMMAND_ID_START_RCV 					name="60" />
+    <COMMAND_ID_READ_FLAGS_SND 				name="01" />
+    <COMMAND_ID_READ_FLAGS_RCV 				name="61" />
+    <COMMAND_ID_WRITE_FLAGS_SND 			name="02" />
+    <COMMAND_ID_WRITE_FLAGS_RCV 			name="62" />
+    <COMMAND_ID_GET_RTC_SND 				name="03" />
+    <COMMAND_ID_GET_RTC_RCV 				name="63" />
+    <COMMAND_ID_WIFI_FREQ_CHANGE_SND		name="04" />
+    <COMMAND_ID_WIFI_FREQ_CHANGE_RCV		name="64" />
+    <COMMAND_ID_READ_MACADDRESS_SND			name="05" />
+    <COMMAND_ID_READ_MACADDRESS_RCV 		name="65" />
+    <COMMAND_ID_END_SND						name="FE" />
+    <COMMAND_ID_END_RCV						name="FE" />
+</enum>
