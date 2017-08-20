@@ -15,6 +15,7 @@ vector
 string  
   
 Starting...  
+
 0) COMMAND_ID_START_SND = 00
 1) COMMAND_ID_START_RCV = 60
 2) COMMAND_ID_READ_FLAGS_SND = 01
