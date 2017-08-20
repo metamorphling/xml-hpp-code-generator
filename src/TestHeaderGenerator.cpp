@@ -66,10 +66,7 @@ void create_order (const rapidxml::xml_document<> &doc, const std::string &mapNa
 }
 
 void HeaderGenerator (const std::string &headerName, const std::vector<std::string> includeHeaders) {
-    cout << headerName << endl;
-    for (const auto i: includeHeaders)
-      std::cout << i << endl;
-
+    cout << endl << "Starting..." << endl;
     std::string outputHeader = headerName + ".hpp";
     outputFile.open(outputHeader);
     if (!outputFile.is_open()) {
