@@ -2,7 +2,9 @@
 Example of parsing XML data into HPP header using RapidXML. Sorting output data into mappings and vectors.
 
 Tested on Ubuntu 16 and GCC 5.4.0  
-Just type "make" in shell under Debug folder.  
+**sudo apt-get install librapidxml-dev** to install rapidxml dependency.
+
+To build just type "make" in shell under Debug folder.  
 Program accepts header name(should be same as xml file) and list of includes.  
 Example usage:  
   
